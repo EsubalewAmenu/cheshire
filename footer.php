@@ -43,6 +43,26 @@
 			<div class="col-md-3">
 				<div class="fotter-coo">
 					<h5>IMPORTANT LINKS</h5>
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+						<?php
+						$menu_name = 'Primary Menu';
+						// primary-menu
+						$menu_items = wp_get_nav_menu_items($menu_name);
+
+						$menu_list = '	<ul class="navbar-nav mr-auto mt-2 mt-lg-0">';
+						foreach ((array) $menu_items as $key => $menu_item) {
+							$title = $menu_item->title;
+							$url = $menu_item->url;
+							$menu_list .= '<li class="nav-item">';
+							// if (str_ends_with($url, $_SERVER['REQUEST_URI']) && !str_ends_with(home_url('/'), $_SERVER['REQUEST_URI'])) $menu_list .= "mp-active-nav";
+							// $menu_list .= '';
+							$menu_list .= '<a class="nav-link" href="' . $url . '">' . $title . '</a>
+									</li>';
+						}
+						$menu_list .= '</ul>';
+						echo $menu_list;
+						?>
+					</div>
 					<ul>
 						<li><i class="fas fa-caret-right"></i> ABOUT US</li>
 						<li><i class="fas fa-caret-right"></i> COMPANY PROFILE</li>
@@ -71,22 +91,22 @@
 					<h5>PHOTO GALLERY</h5>
 					<div class="gallery-row row">
 						<div class="col-md-4 col-6 gall-col">
-							<img src="assets/images/gallery/g1.jpg" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery/g1.jpg" alt="">
 						</div>
 						<div class="col-md-4 col-6 gall-col">
-							<img src="assets/images/gallery/g2.jpg" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery/g2.jpg" alt="">
 						</div>
 						<div class="col-md-4 col-6 gall-col">
-							<img src="assets/images/gallery/g3.jpg" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery/g3.jpg" alt="">
 						</div>
 						<div class="col-md-4 col-6 gall-col">
-							<img src="assets/images/gallery/g4.jpg" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery/g4.jpg" alt="">
 						</div>
 						<div class="col-md-4 col-6 gall-col">
-							<img src="assets/images/gallery/g1.jpg" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery/g1.jpg" alt="">
 						</div>
 						<div class="col-md-4 col-6 gall-col">
-							<img src="assets/images/gallery/g2.jpg" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery/g2.jpg" alt="">
 						</div>
 					</div>
 				</div>
@@ -98,7 +118,7 @@
 
 <div class="copy">
 	<div class="container">
-		<a href="https://www.smarteyeapps.com/">2015 &copy; All Rights Reserved | Designed and Developed by Smarteyeapps</a>
+		<a href="https://datascienceplc.com/">2022 &copy; All Rights Reserved | Designed and Developed by Micky</a>
 
 		<span>
 			<a><i class="fab fa-github"></i></a>
