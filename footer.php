@@ -28,14 +28,18 @@
 	<div class="container">
 		<div class="footer-top row">
 			<div class="col-md-4 foot-logo">
-				<h2>Charity for Educaton</h2>
+				<h2>Cheshire Foundation</h2>
 			</div>
 			<div class="col-md-8 foot-addr">
-				<p>Donec venenatis metus at diam condimentum pretiuteger aliquet a turpis quis pel len tesque ueta turpis quis venenatissolelementum</p>
+				<p>Cheshire Foundation Ethiopia recently renamed as Cheshire Foundation–Action for Inclusion (CF-AI) is an indigenous charity organization established in 1985. 
+
+The organization is reregistered for the second time under the recent Ethiopian Charities & Societies Proclamation 621/2009 with the registration No. 0298.
+
+</p>
 				<ul>
-					<li><i class="fas fa-map-marker-alt"></i> Antonya Street, 23/H-2, Building, TA, AUS </li>
-					<li><i class="fas fa-mobile-alt"></i> +177 (089) 987665 </li>
-					<li><i class="far fa-envelope"></i> support@smarteyeapps.com </li>
+					<li><i class="fas fa-map-marker-alt"></i> Addis Ababa, Ethiopia </li>
+					<li><i class="fas fa-mobile-alt"></i>  +251 113 21 3869/+251 113 21 3879 </li>
+					<li><i class="far fa-envelope"></i> info@cheshirefai.org </li>
 				</ul>
 			</div>
 		</div>
@@ -118,7 +122,7 @@
 
 <div class="copy">
 	<div class="container">
-		<a href="https://datascienceplc.com/">2022 &copy; All Rights Reserved | Designed and Developed by Micky</a>
+		<a href="https://datascienceplc.com/">2022 &copy; All Rights Reserved | Designed and Developed by Help Desk</a>
 
 		<span>
 			<a><i class="fab fa-github"></i></a>
