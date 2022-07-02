@@ -136,5 +136,11 @@
 <?php wp_footer(); ?>
 
 </body>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery-3.2.1.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/popper.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/plugins/slider/js/owl.carousel.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
 
 </html>
