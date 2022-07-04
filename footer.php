@@ -26,23 +26,6 @@
 </div>
 <footer class="container-fluid footer-cont">
 	<div class="container">
-		<div class="footer-top row">
-			<div class="col-md-4 foot-logo">
-				<h2>Cheshire Foundation</h2>
-			</div>
-			<div class="col-md-8 foot-addr">
-				<p>Cheshire Foundation Ethiopia recently renamed as Cheshire Foundation–Action for Inclusion (CF-AI) is an indigenous charity organization established in 1985. 
-
-The organization is reregistered for the second time under the recent Ethiopian Charities & Societies Proclamation 621/2009 with the registration No. 0298.
-
-</p>
-				<ul>
-					<li><i class="fas fa-map-marker-alt"></i> Addis Ababa, Ethiopia </li>
-					<li><i class="fas fa-mobile-alt"></i>  +251 113 21 3869/+251 113 21 3879 </li>
-					<li><i class="far fa-envelope"></i> info@cheshirefai.org </li>
-				</ul>
-			</div>
-		</div>
 		<div class="foot-botom row">
 			<div class="col-md-3">
 				<div class="fotter-coo">
@@ -81,11 +64,11 @@ The organization is reregistered for the second time under the recent Ethiopian 
 				<div class="fotter-coo">
 					<h5>GLOBAL UPDATE NEWS</h5>
 					<ul>
-						<li><i class="fas fa-caret-right"></i> 100 CHILDREN RESCUE FROM WAR ZONE</li>
-						<li><i class="fas fa-caret-right"></i> THR FRESH HOUSE CHILD</li>
-						<li><i class="fas fa-caret-right"></i> CREATE AWARENESS IN EDUCATON</li>
-						<li><i class="fas fa-caret-right"></i> WHAT HAPPEN WHEN WE LIVE!</li>
-						<li><i class="fas fa-caret-right"></i> READ BLOG</li>
+						<li><i class="fas fa-map-marker-alt"></i> Mekanisa</li>
+						<li><i class="fas fa-map-marker-alt"></i> Addis Ababa, Ethiopia</li>
+						<li><i class="fas fa-mobile-alt"></i> +251 113 21 3869</li>
+						<li><i class="fas fa-mobile-alt"></i> +251 113 21 3879</li>
+						<li><i class="fas fa-envelope"></i> info@cheshirefai.org</li>
 					</ul>
 				</div>
 
