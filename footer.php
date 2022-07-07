@@ -77,24 +77,22 @@
 				<div class="fotter-coo">
 					<h5>PHOTO GALLERY</h5>
 					<div class="gallery-row row">
-						<div class="col-md-4 col-6 gall-col">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery/g1.jpg" alt="">
-						</div>
-						<div class="col-md-4 col-6 gall-col">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery/g2.jpg" alt="">
-						</div>
-						<div class="col-md-4 col-6 gall-col">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery/g3.jpg" alt="">
-						</div>
-						<div class="col-md-4 col-6 gall-col">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery/g4.jpg" alt="">
-						</div>
-						<div class="col-md-4 col-6 gall-col">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery/g1.jpg" alt="">
-						</div>
-						<div class="col-md-4 col-6 gall-col">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery/g2.jpg" alt="">
-						</div>
+
+						<?php
+						$args = array(
+							'post_type'      => 'galleries',
+							'post_status'    => 'publish',
+						);
+
+						$galleries = get_posts($args);
+						foreach ($galleries as $gallery) { ?>
+
+							<div class="col-md-4 col-6 gall-col">
+								<?php $src = wp_get_attachment_image_src(get_post_thumbnail_id($gallery->ID), 'thumbnail_size'); ?>
+								<img src="<?php echo $src[0] ?>" alt="">
+							</div>
+						<?php } ?>
+
 					</div>
 				</div>
 
@@ -124,10 +122,10 @@
 
 </body>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery-3.2.1.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/popper.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/plugins/slider/js/owl.carousel.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/popper.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/plugins/slider/js/owl.carousel.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
 
 </html>
