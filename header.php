@@ -66,14 +66,18 @@
 						<ul>
 							<li>
 								<div class="donta-btn">
-									<p>Please make your</p>
-									<strong>Dontatin</strong>
+									<a href="<?php echo home_url('/donation') ?>">
+										<p>Please make your</p>
+										<strong>Dontation</strong>
+									</a>
 								</div>
 							</li>
 							<li>
 								<div class="voltterr-btn">
-									<p>Time to Becom a</p>
-									<strong>Volunteer</strong>
+									<a href="<?php echo home_url('/donation') ?>">
+										<p>Time to Becom a</p>
+										<strong>Volunteer</strong>
+									</a>
 								</div>
 							</li>
 						</ul>
@@ -97,12 +101,12 @@
 
 							<!-- 'theme_location' => 'menu-1',
 											'menu_id'        => 'primary-menu', -->
-								<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+							<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
 								<?php
 								$menu_name = 'Primary Menu';
 								// primary-menu
 								$menu_items = wp_get_nav_menu_items($menu_name);
-								
+
 								$menu_list = '	<ul class="navbar-nav mr-auto mt-2 mt-lg-0">';
 								foreach ((array) $menu_items as $key => $menu_item) {
 									$title = $menu_item->title;

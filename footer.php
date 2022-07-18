@@ -18,9 +18,11 @@
 <div class="footer-ablove">
 	<div class="container">
 		<div class="row">
-			<p>Looking For Exclusive Services?
-				<button class="btn btn-default">Donate Now</button>
-			</p>
+			<a href="<?php echo home_url('/donation') ?>">
+				<p>Looking For Exclusive Services?
+					<button class="btn btn-default">Donate Now</button>
+				</p>
+			</a>
 		</div>
 	</div>
 </div>

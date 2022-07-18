@@ -103,11 +103,12 @@ header{
   text-align: center; }
 @media screen and (max-width: 1050px) {
   .slider-captions {
-    bottom: 100px !important; }
+    bottom: 100px !important; 
   width: 90%;
   text-align: center;
   float: none;
   margin: auto;
+}
   .slider-captions .slider-title {
     font-size: 42px; } }
 @media screen and (max-width: 810px) {
@@ -120,10 +121,9 @@ header{
     display: none; } }
 
 .slider-title {
-  font-size: 66px;
+  font-size: 33px;
   font-weight: 600;
-  color: #fff;
-  letter-spacing: -3px; }
+  color: #fff; }
 
 .slider-text {
   margin-bottom: 20px;
