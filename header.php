@@ -146,19 +146,16 @@
 					<div class="col-lg-3 d-none d-lg-block social-div">
 						<ul class="ulright">
 							<li>
-								<i class="fab fa-facebook-square"></i>
+								<a href="https://www.facebook.com/Cheshire-Foundation-Action-for-Inclusion-107485298724827" target="_blank"><i class="fab fa-facebook-square"></i></a>
 							</li>
 							<li>
-								<i class="fab fa-twitter-square"></i>
+								<a href="https://twitter.com/CfaiCheshire?t=aDAhzVXh-2phO6-N-qDDkw&s=35" target="_blank"><i class="fab fa-twitter-square"></i></a>
 							</li>
 							<li>
-								<i class="fab fa-instagram"></i>
+								<a href="https://instagram.com/cfaicheshire?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fab fa-instagram"></i></a>
 							</li>
 							<li>
-								<i class="fab fa-linkedin"></i>
-							</li>
-							<li>
-								<i class="fab fa-pinterest-square"></i>
+								<a href="https://www.linkedin.com/company/cheshire-foundation-action-for-inclusion" target="_blank"><i class="fab fa-linkedin"></i></a>
 							</li>
 						</ul>
 					</div>

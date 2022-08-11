@@ -108,11 +108,10 @@
 		<a href="https://datascienceplc.com/">2022 &copy; All Rights Reserved | Designed and Developed by Help Desk</a>
 
 		<span>
-			<a><i class="fab fa-github"></i></a>
-			<a><i class="fab fa-google-plus-g"></i></a>
-			<a><i class="fab fa-pinterest-p"></i></a>
-			<a><i class="fab fa-twitter"></i></a>
-			<a><i class="fab fa-facebook-f"></i></a>
+			<a href="https://www.facebook.com/Cheshire-Foundation-Action-for-Inclusion-107485298724827" target="_blank"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://twitter.com/CfaiCheshire?t=aDAhzVXh-2phO6-N-qDDkw&s=35" target="_blank"><i class="fab fa-twitter"></i></a>
+			<a href="https://instagram.com/cfaicheshire?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.linkedin.com/company/cheshire-foundation-action-for-inclusion" target="_blank"><i class="fab fa-linkedin"></i></a>
 		</span>
 	</div>
 
